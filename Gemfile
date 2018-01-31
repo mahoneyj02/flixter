@@ -78,3 +78,5 @@ gem 'stripe'
 gem 'ranked-model'
 
 gem 'jquery-ui-rails'
+
+gem 'font-awesome-sass', '~> 4.7.0'

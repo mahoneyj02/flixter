@@ -1,4 +1,6 @@
 @import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
 .navbar {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -124,4 +126,40 @@ body {
     font-size: 25px;
 }
 
+ul {
+    list-style-type: none;
+}
 
+.section-li {
+    border: 1px solid #ccc;
+    border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+    padding: 20px;
+    margin: 20px;
+}
+
+.lessons li {
+    background: #f1f1f1;
+    color: #0a0a0a;
+    margin: 10px;
+    font-size: 15px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 100;
+    padding: 8px;
+}
+
+.lessons li b {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.lessons li p {
+    margin: 0;
+}
+
+ul .header {
+    font-size: 25px;
+}
+
+ul .header .fa {
+    font-size: 20px;
+}
