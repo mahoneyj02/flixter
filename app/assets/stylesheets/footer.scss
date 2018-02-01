@@ -19,6 +19,7 @@ body {
     background-color: rgba(36, 32, 33, 0.9);
     color: #fff;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 100;
     padding: 10px 0px;
     margin: 30px 0 0 0;
 }
@@ -26,5 +27,13 @@ body {
 #footer a {
     color: #fff;
     font-weight: 100;
+}
+
+.social-button {
+    margin: 4px;
+}
+
+.social a:hover {
+    text-decoration: none;
 }
 
